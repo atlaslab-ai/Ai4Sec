@@ -6,8 +6,6 @@ tldr: "This session discussed adversarial attacks against machine learning syste
 hide_from_announcments: false
 ---
 
-**Category:** AI Security Quiz
-
 **Topics:**
 
 - Adversarial examples

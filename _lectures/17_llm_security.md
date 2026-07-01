@@ -6,8 +6,6 @@ tldr: "This session covered security risks, attacks, and defense considerations 
 hide_from_announcments: false
 ---
 
-**Category:** AI Security Quiz
-
 **Topics:**
 
 - Large language model security risks

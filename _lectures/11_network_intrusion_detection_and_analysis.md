@@ -6,8 +6,6 @@ tldr: "This session covered AI-based approaches for detecting and analyzing netw
 hide_from_announcments: false
 ---
 
-**Category:** Security Application Quiz
-
 **Topics:**
 
 - Network intrusion detection

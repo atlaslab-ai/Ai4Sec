@@ -6,8 +6,6 @@ tldr: "This session covered levels of measurement and introduced linear regressi
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Nominal, ordinal, interval, and ratio levels of measurement

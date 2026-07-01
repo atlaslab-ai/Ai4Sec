@@ -6,8 +6,6 @@ tldr: "This session covered decision trees, random forests, splitting criteria, 
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Decision tree structure

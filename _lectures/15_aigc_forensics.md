@@ -6,8 +6,6 @@ tldr: "This session covered forensic analysis of AI-generated content and relate
 hide_from_announcments: false
 ---
 
-**Category:** Emerging Topic Quiz
-
 **Topics:**
 
 - AI-generated content

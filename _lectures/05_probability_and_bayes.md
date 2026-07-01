@@ -6,8 +6,6 @@ tldr: "This session introduced probability concepts and Bayes' rule for reasonin
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Basic probability concepts

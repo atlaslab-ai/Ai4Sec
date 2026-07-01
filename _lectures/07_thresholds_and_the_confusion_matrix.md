@@ -6,8 +6,6 @@ tldr: "This session focused on classification thresholds, confusion matrix, and 
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Classification thresholds

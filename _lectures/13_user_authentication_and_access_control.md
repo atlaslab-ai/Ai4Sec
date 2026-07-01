@@ -6,8 +6,6 @@ tldr: "This session covered AI-related methods and challenges in authentication 
 hide_from_announcments: false
 ---
 
-**Category:** Security Application Quiz
-
 **Topics:**
 
 - User authentication

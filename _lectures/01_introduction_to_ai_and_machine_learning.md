@@ -6,8 +6,6 @@ tldr: "An introductory session on artificial intelligence, machine learning, and
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Artificial intelligence and machine learning overview

@@ -6,8 +6,6 @@ tldr: "This session covered data poisoning attacks and their impact on machine l
 hide_from_announcments: false
 ---
 
-**Category:** AI Security Quiz
-
 **Topics:**
 
 - Data poisoning attacks

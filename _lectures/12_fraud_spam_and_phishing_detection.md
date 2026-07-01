@@ -6,8 +6,6 @@ tldr: "This session discussed machine learning techniques for detecting fraud, s
 hide_from_announcments: false
 ---
 
-**Category:** Security Application Quiz
-
 **Topics:**
 
 - Fraud detection

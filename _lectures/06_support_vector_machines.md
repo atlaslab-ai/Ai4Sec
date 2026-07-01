@@ -6,8 +6,6 @@ tldr: "This session covered support vector machines, hyperplanes, margins, and t
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Hyperplanes and decision boundaries

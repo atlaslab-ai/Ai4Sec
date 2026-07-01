@@ -6,8 +6,6 @@ tldr: "This session explained classification tasks and introduced the k-Nearest 
 hide_from_announcments: false
 ---
 
-**Category:** Core ML
-
 **Topics:**
 
 - Classification problems

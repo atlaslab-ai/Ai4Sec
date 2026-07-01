@@ -6,8 +6,6 @@ tldr: "This make-up session covered neural networks, deep learning concepts, and
 hide_from_announcments: false
 ---
 
-**Category:** Deep Learning Quiz Make-up
-
 **Topics:**
 
 - Artificial neural networks

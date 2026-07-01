@@ -6,8 +6,6 @@ tldr: "This session discussed the role of AI in threat intelligence, cyber threa
 hide_from_announcments: false
 ---
 
-**Category:** Security Application Quiz
-
 **Topics:**
 
 - Threat intelligence
