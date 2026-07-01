@@ -1,12 +1,15 @@
 ---
 type: lecture
 date: 2026-05-30T07:45:00+3:30
-title: "Session 17 - LLM Security"
-tldr: "This session covered security risks, attacks, and defense considerations related to large language models."
+title: "Session 17: LLM Security"
+tldr: "This session covers security risks, attacks, and defense considerations related to large language models."
+hide_from_announcments: true
 ---
 
-**Topics:**
+This session covers security risks, attacks, and defense considerations related to large language models.
 
-- Large language model security risks
+**Main points:**
+
+- LLM security risks
 - Attacks against LLM-based systems
-- Defense considerations for LLM applications
+- Defense considerations

@@ -1,12 +1,15 @@
 ---
 type: lecture
 date: 2026-04-11T07:45:00+3:30
-title: "Session 3 - Classification and k-Nearest Neighbors"
-tldr: "This session explained classification tasks and introduced the k-Nearest Neighbors algorithm."
+title: "Session 3: Classification and k-Nearest Neighbors"
+tldr: "This session explains classification tasks and introduces the k-Nearest Neighbors algorithm."
+hide_from_announcments: true
 ---
 
-**Topics:**
+This session explains classification tasks and introduces the k-Nearest Neighbors algorithm.
 
-- Classification problems
+**Main points:**
+
+- Classification tasks
 - Instance-based learning
-- The k-Nearest Neighbors algorithm
+- k-Nearest Neighbors

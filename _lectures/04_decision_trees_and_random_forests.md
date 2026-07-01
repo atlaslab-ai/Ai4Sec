@@ -1,12 +1,15 @@
 ---
 type: lecture
 date: 2026-04-13T07:45:00+3:30
-title: "Session 4 - Decision Trees and Random Forests"
-tldr: "This session covered decision trees, random forests, splitting criteria, and ensemble learning."
+title: "Session 4: Decision Trees and Random Forests"
+tldr: "This session covers decision trees, random forests, splitting criteria, and ensemble learning."
+hide_from_announcments: true
 ---
 
-**Topics:**
+This session covers decision trees, random forests, splitting criteria, and ensemble learning.
 
-- Decision tree structure
+**Main points:**
+
+- Decision trees
 - Splitting criteria
-- Random forests and ensemble learning
+- Random forests and ensembles
