@@ -18,16 +18,29 @@ layout: default
 
     {{ content }}
 
+    {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
+
+    <h2>Previous Offerings</h2>
+
+    <ul class="previous-offerings">
+        {% for offer in site.data.previous_offering.offerings %}
+        <li><a href="{{ offer.url }}">{{ offer.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+
     <br>
 
-    <div style="width:100%; display:flex; justify-content:center; align-items:flex-start; gap:140px; flex-wrap:wrap; margin-top:20px;">
+    <div>
 
-        <div style="width:260px; text-align:center;">
-            <h2 style="text-align:center;">Instructor</h2>
+        <div style="width:35%; float: left">
+            <div class="profile-pic-gallary">
 
-            <div style="display:flex; justify-content:center; width:100%;">
+                <h2>Instructors</h2>
+
                 {% for ins in site.data.people.instructors %}
-                <div class="image--cover-container" style="float:none; display:block; margin:0 auto; text-align:center;">
+                <div class="image--cover-container">
                     <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
 
                     {% if ins.webpage %}
@@ -37,16 +50,18 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+
             </div>
         </div>
 
 
-        <div style="width:260px; text-align:center;">
-            <h2 style="text-align:center;">Teaching Assistant</h2>
+        <div style="width:65%; float: left">
+            <div class="profile-pic-gallary">
 
-            <div style="display:flex; justify-content:center; width:100%;">
+                <h2>Teaching Assistants</h2>
+
                 {% for ta in site.data.people.teaching_assistants %}
-                <div class="image--cover-container" style="float:none; display:block; margin:0 auto; text-align:center;">
+                <div class="image--cover-container">
                     <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
 
                     {% if ta.webpage %}
@@ -56,6 +71,7 @@ layout: default
                     {% endif %}
                 </div>
                 {% endfor %}
+
             </div>
         </div>
 
