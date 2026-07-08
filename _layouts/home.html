@@ -22,6 +22,7 @@ layout: default
 
     <div style="width:100%; float:left;">
         <div class="profile-pic-gallary">
+
             <h2>Instructor</h2>
 
             {% for ins in site.data.people.instructors %}
@@ -36,12 +37,7 @@ layout: default
             </div>
             {% endfor %}
 
-        </div>
-    </div>
 
-
-    <div style="width:100%; float:left;">
-        <div class="profile-pic-gallary">
             <h2>Teaching Assistants</h2>
 
             {% for ta in site.data.people.teaching_assistants %}
@@ -49,7 +45,7 @@ layout: default
                 <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
 
                 {% if ta.webpage %}
-                <p><a href="{{ ta.webpage }}">{{ ta.webpage }}</a></p>
+                <p><a href="{{ ta.webpage }}">{{ ta.name }}</a></p>
                 {% else %}
                 <p>{{ ta.name }}</p>
                 {% endif %}
@@ -58,6 +54,5 @@ layout: default
 
         </div>
     </div>
-
 
 </div>
