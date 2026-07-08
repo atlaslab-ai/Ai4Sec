@@ -20,31 +20,33 @@ layout: default
 
     <br>
 
-    <div style="width:100%; display:flex; justify-content:center; align-items:flex-start; gap:90px; flex-wrap:wrap; margin-top:20px;">
+    <div style="width:100%; display:flex; justify-content:center; align-items:flex-start; gap:140px; flex-wrap:wrap; margin-top:20px;">
 
-        <div style="text-align:center; min-width:220px;">
-            <h2>Instructor</h2>
+        <div style="width:260px; text-align:center;">
+            <h2 style="text-align:center;">Instructor</h2>
 
-            {% for ins in site.data.people.instructors %}
-            <div class="image--cover-container">
-                <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+            <div style="display:flex; justify-content:center; width:100%;">
+                {% for ins in site.data.people.instructors %}
+                <div class="image--cover-container" style="float:none; display:block; margin:0 auto; text-align:center;">
+                    <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
 
-                {% if ins.webpage %}
-                <p><a href="{{ ins.webpage }}">{{ ins.name }}</a></p>
-                {% else %}
-                <p>{{ ins.name }}</p>
-                {% endif %}
+                    {% if ins.webpage %}
+                    <p><a href="{{ ins.webpage }}">{{ ins.name }}</a></p>
+                    {% else %}
+                    <p>{{ ins.name }}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
 
 
-        <div style="text-align:center; min-width:220px;">
-            <h2>Teaching Assistant</h2>
+        <div style="width:260px; text-align:center;">
+            <h2 style="text-align:center;">Teaching Assistant</h2>
 
-            <div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap;">
+            <div style="display:flex; justify-content:center; width:100%;">
                 {% for ta in site.data.people.teaching_assistants %}
-                <div class="image--cover-container">
+                <div class="image--cover-container" style="float:none; display:block; margin:0 auto; text-align:center;">
                     <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
 
                     {% if ta.webpage %}
